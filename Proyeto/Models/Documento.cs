@@ -15,7 +15,4 @@ public partial class Documento
 
     public string Urldocumento { get; set; } = null!;
 
-    public virtual ICollection<DocumentoUsuario> DocumentoUsuarios { get; set; } = new List<DocumentoUsuario>();
-
-    public virtual Categorium? IdCategoria1Navigation { get; set; }
-}
+    
