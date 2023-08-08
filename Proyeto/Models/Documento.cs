@@ -14,5 +14,6 @@ public partial class Documento
     public int? IdCategoria1 { get; set; }
 
     public string Urldocumento { get; set; } = null!;
+}
 
     
