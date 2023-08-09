@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Proyeto.Models;
 
-public partial class Categorium
+public  class Categorium
 {
     public int IdCategoria { get; set; }
 
@@ -11,5 +11,4 @@ public partial class Categorium
 
     public string Tipo { get; set; } = null!;
 
-    public virtual ICollection<Documento> Documentos { get; set; } = new List<Documento>();
 }
